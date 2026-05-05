@@ -1,0 +1,36 @@
+# Build outputs
+bin/
+obj/
+dist/
+artifacts/
+publish/
+
+# Local database and backups
+*.db
+*.db-shm
+*.db-wal
+Backups/
+
+# Packaging outputs
+*.zip
+
+# Signing material generated locally
+signing/*.key
+signing/*.crt
+signing/*.pfx
+
+# IDE and user-specific files
+.vs/
+*.user
+*.rsuser
+*.suo
+
+# Test output
+TestResults/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
